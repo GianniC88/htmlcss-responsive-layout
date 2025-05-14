@@ -66,6 +66,29 @@ header{
 	justify-content: flex-start;
 }
   
+.card-difficoltà{
+	padding: 1rem 2rem;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+
+
+ul{
+	list-style-type: none;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+li{
+	margin-bottom: 2rem;
+}
+
+.ico-social{
+	margin-top: 1rem;
+    height: 30px;
+    
+}
 
 /* */
 @media only screen and (min-width: 768px) and (max-width: 1064px) {
