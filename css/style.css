@@ -110,7 +110,8 @@ header{
 
   .container-sml{
 	width: 100%;
-	padding: 2rem;
+	padding: 1rem;
+	margin: 10px auto;
   }
 
   .head-barr{
@@ -127,6 +128,10 @@ header{
 
 	.container{
 		width: 100%;
+	}
+
+	.container-sml{
+		width: 80%;
 	}
 	
 }
