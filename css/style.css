@@ -109,7 +109,13 @@ li{
     height: 30px;
     
 }
+.brd-rds{
+	border: 16px white solid;
+	border-radius: 40%;
+	box-shadow: 2px 2px 2px 0px rgba(56, 54, 54, 0.5);
+	
 
+}
 /* */
 @media only screen and (min-width: 768px) and (max-width: 1064px) {
   .container {
