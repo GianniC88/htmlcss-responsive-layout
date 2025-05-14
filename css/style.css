@@ -151,7 +151,7 @@ li{
 
 /* tablet */
 
-@media screen and (max-width:769px ) {
+@media screen and (min-width:769px ) {
   .container 
   {
     width: 100%;
@@ -171,7 +171,14 @@ li{
   }
 
   ul{
-	display: flex;
+	width: 100%;
+    display: flex
+;
+    flex-wrap: wrap;
+  }
+
+  .brd-rds{
+	width: 30px;
   }
 
 
