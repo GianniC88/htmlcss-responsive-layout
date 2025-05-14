@@ -1,0 +1,49 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* color */
+body {
+  background-color: #f6f5f3;
+}
+
+.font-ylw {
+  color: #ff930e;
+}
+
+.container {
+  max-width: 425px;
+  padding: 0 0 1rem 0;
+}
+
+.container-sml {
+  padding: 0 1rem;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Nerko One", cursive;
+  font-size: 50px;
+  font-style: normal;
+  color: #ff930e;
+  font-weight: lighter;
+}
+
+.dolci-tlt {
+  color: #b8b7bc;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.head-barr {
+  display: flex;
+  background-color: white;
+}
+
+.tiramisù-tlt {
+  color: #4e3968;
+  margin-top: 24px;
+}
