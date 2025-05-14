@@ -193,9 +193,22 @@ li{
 	}
 
 	.container-sml{
-		width: 80%;
+		width: 100%;
+	}
+
+	.card-tiramisù{
+		display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
 	}
 	
+	.img-tiramisù{
+		width: 70%;
+	}
+
+	.card-difficoltà{
+		width: 30%;
+	}
 }
 
 
