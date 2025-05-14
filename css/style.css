@@ -6,6 +6,26 @@
 }
 
 /* color */
+.bld{
+	border-width: bold;
+}
+
+.fb-cl{
+	 color: #0C76F3;  
+}
+.twt-cl{
+	color: #0C76F3;
+}
+
+.in-cl{
+	color: #DF6C87;
+
+}
+
+.col-red{
+	color:#a8372d;
+}
+
 body {
   background-color: #f6f5f3;
 }
