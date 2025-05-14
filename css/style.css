@@ -117,7 +117,7 @@ li{
 
 }
 /* */
-@media only screen and (min-width: 768px) and (max-width: 1064px) {
+@media only screen and (min-width: 770px) and (max-width: 1064px) {
   .container {
     padding: 1rem;
   }
@@ -126,7 +126,7 @@ li{
 
 
 /* mobile */
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 426px) {
   .container {
     width: 100%;
   }
@@ -150,6 +150,7 @@ li{
 
 
 /* tablet */
+
 @media screen and (max-width:769px ) {
   .container 
   {
@@ -163,9 +164,14 @@ li{
 	margin: 10px auto;
   }
 
-  .head-barr{
+ .title-trms{
+	margin-inline: 1rem;
 	
 
+  }
+
+  ul{
+	display: flex;
   }
 
 
