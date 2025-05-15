@@ -34,14 +34,15 @@ body {
   color: #ff930e;
 }
 
-.container {
- 
-  
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
 }
 
 .container-sml {
-  
-  max-width: 100%;
+  width: 500px;
+  max-width: 80%;
   padding: 1rem;
 }
 
@@ -74,6 +75,10 @@ header{
 .tiramisù-tlt {
   color: #4e3968;
   margin-top: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: -12px;
+  text-align: justify;
 }
 
 .img-tiramisù {
@@ -115,6 +120,20 @@ li{
 	box-shadow: 2px 2px 2px 0px rgba(56, 54, 54, 0.5);
 	
 
+}
+
+.col {
+  width: 100%;
+  flex-basis: auto;
+  padding: 1rem;
+}
+
+.col-01{
+  width:calc(100%%/12*1)
+}
+
+.col-05{
+  width: calc(100%/);
 }
 /* */
 @media only screen and (min-width: 770px) and (max-width: 1064px) {
@@ -164,17 +183,16 @@ li{
 	margin: 10px auto;
   }
 
- .title-trms{
-	margin-inline: 1rem;
-	
+
+  .title-trms .card-title
+  .img-tiramisù-tlt{ 
+    width: 100%;  
 
   }
 
   ul{
 	width: 100%;
-    display: flex
-;
-    flex-wrap: wrap;
+    
   }
 
   .brd-rds{
