@@ -259,21 +259,3 @@ li{
 }
 
 
-.list-add li:hover .fluo {
-  border: 2px solid yellowgreen;
-}
-
-.fluo_ {
-  border-bottom: 2px solid #141922;
-  width: 28px;
-}
-
-.list-categ li:hover .fluo_ {
-  border-bottom: 2px solid yellowgreen;
-}
-.fluo {
-  border: 2px solid border black;
-  position: absolute;
-  height: 33px;
-  margin-left: -12px;
-}
