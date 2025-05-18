@@ -25,20 +25,15 @@ body {
   color: #ff930e;
 }
 
-header {
-  background-color: white;
+.container {
+ 
+  
 }
 
-* {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-
-}
-
-ul{
-  list-style: none;
+.container-sml {
+  
+  max-width: 100%;
+  padding: 1rem;
 }
 
 .flex{
@@ -82,46 +77,63 @@ img {
   background-color: purple;
   color: white;
   font-size: 12px;
-  display:flex;
-  align-items: center;
-  }
+  font-weight: lighter;
+}
+header{
+	background-color: white
+}
+
+
+
+.tiramisù-tlt {
+  color: #4e3968;
+  margin-top: 10px;
+}
+
+.img-tiramisù {
+	margin-top: 10px;
+  width: 100%;
   
-
-
-
-.big-footer{
-  display: flex;
 }
-/*#endregion utilities*/
 
-.card {
-  .card-body {
+.title-trms{
+	justify-content: flex-start;
+}
+  
+.card-difficoltà{
+	padding: 1rem 2rem;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+
+
+ul{
+	list-style-type: none;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+li{
+	margin-bottom: 2rem;
+}
+
+.ico-social{
+	margin-top: 1rem;
+    height: 30px;
+    
+}
+.brd-rds{
+	border: 16px white solid;
+	border-radius: 40%;
+	box-shadow: 2px 2px 2px 0px rgba(56, 54, 54, 0.5);
+	
+
+}
+/* */
+@media only screen and (min-width: 770px) and (max-width: 1064px) {
+  .container {
     padding: 1rem;
-
-    ul {
-      list-style: none;
-      line-height: 2rem;
-      margin-top: 1.5rem;
-    }
-  }
-
-  .
-
-
-}
-
-.recipe {
-  .title {
-    padding-bottom: 1.5rem;
-    color: #4e3969;
-  }
-
-  .sub-title {
-    text-transform: uppercase;
-    font-weight: lighter;
-    color: lightslategray;
-    display: inline-block;
-    padding-top: 2rem;
   }
 }
 
@@ -160,55 +172,34 @@ img {
 
 /* tablet */
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-
-  #app-header {
-    padding: 0rem 1rem;
-
-    h1 {
-      text-align: left;
-    }
-  }
-
-  .card .card-body {
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 5rem;
-      row-gap: 1.5rem;
-    }
-  }
-
-  .socials{
-   
-  
-    .icon{
-     padding: 0.25rem 2.5rem;
-    }
-  }
-  
-
-
-  .banner{
-    display: block;
-  }
-
-  .presentation
+@media screen and (min-width:769px ) {
+  .container 
   {
-    padding: 2rem 0;
-    img
-    {
-      float: left;
-      margin-right: 1rem;
-    }
+    width: 100%;
+
   }
 
-  #app_footer{
-    display: flex;
-    align-items: center;
+  .container-sml{
+	width: 100%;
+	padding: 1rem;
+	margin: 10px auto;
+  }
+
+ .title-trms{
+	margin-inline: 1rem;
+	
+
+  }
+
+  ul{
+	width: 100%;
+    display: flex
+;
+    flex-wrap: wrap;
+  }
+
+  .brd-rds{
+	width: 30px;
   }
 
  
