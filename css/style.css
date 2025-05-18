@@ -1,29 +1,20 @@
-* {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+.bld {
+  border-width: bold;
 }
 
-/* color */
-.bld{
-	border-width: bold;
+.fb-cl {
+  color: #0c76f3;
+}
+.twt-cl {
+  color: #0c76f3;
 }
 
-.fb-cl{
-	 color: #0C76F3;  
-}
-.twt-cl{
-	color: #0C76F3;
+.in-cl {
+  color: #df6c87;
 }
 
-.in-cl{
-	color: #DF6C87;
-
-}
-
-.col-red{
-	color:#a8372d;
+.col-red {
+  color: #a8372d;
 }
 
 body {
@@ -34,23 +25,31 @@ body {
   color: #ff930e;
 }
 
-.container {
- 
-  
+header {
+  background-color: white;
 }
 
-.container-sml {
-  
-  max-width: 100%;
-  padding: 1rem;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+ul{
+  list-style: none;
 }
 
 .flex{
-	display: flex;
-
+  display: flex;
 }
-	
 
+html,
+body {
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 h1 {
   font-family: "Nerko One", cursive;
@@ -58,181 +57,232 @@ h1 {
   font-style: normal;
   color: #ff930e;
   font-weight: lighter;
+  margin-left: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 0px #948e86;
 }
 
-.dolci-tlt {
-  color: #b8b7bc;
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+/*#region utilities*/
+/* layout */
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+#app_footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: purple;
+  color: white;
   font-size: 12px;
-  font-weight: lighter;
-}
-header{
-	background-color: white
-}
-
-
-
-.tiramisù-tlt {
-  color: #4e3968;
-  margin-top: 10px;
-}
-
-.img-tiramisù {
-	margin-top: 10px;
-  width: 100%;
+  display:flex;
+  align-items: center;
+  }
   
-}
-
-.title-trms{
-	justify-content: flex-start;
-}
-  
-.card-difficoltà{
-	padding: 1rem 2rem;
-	width: 100%;
-	background-color: white;
-	color: black;
-}
 
 
-ul{
-	list-style-type: none;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+
+.big-footer{
+  display: flex;
+}
+/*#endregion utilities*/
+
+.card {
+  .card-body {
+    padding: 1rem;
+
+    ul {
+      list-style: none;
+      line-height: 2rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .
+
+
 }
 
-li{
-	margin-bottom: 2rem;
+.recipe {
+  .title {
+    padding-bottom: 1.5rem;
+    color: #4e3969;
+  }
+
+  .sub-title {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: lightslategray;
+    display: inline-block;
+    padding-top: 2rem;
+  }
 }
 
-.ico-social{
-	margin-top: 1rem;
-    height: 30px;
+.socials{
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 1rem 0;
+
+  }
+
+  .icon{
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    box-shadow: 0 0 5px lightgrey;
+
+
     
+    span{
+      display: none;
+    }
+  }
 }
-.brd-rds{
-	border: 16px white solid;
-	border-radius: 40%;
-	box-shadow: 2px 2px 2px 0px rgba(56, 54, 54, 0.5);
-	
 
-}
-/* */
-
-
-
-
-/* mobile */
-@media only screen and (min-width: 428px) {
-  .container {
-    width: 100%;
-  }
-    
-  .head-barr{
-	display: flex;
-	
-  }
-
-  
-
-  .title-trms .card-title
-  .img-tiramisù-tlt{ 
-    width: 100%;  
-
-  }
-
+.banner{
+  display: none;
   
 }
 
 
+
+}
+/* queries */
 
 /* tablet */
 
-@media screen and (min-width:767px ) {
-  .container 
-  {
-    width: 100%;
-
-  }
-
-  .container-sml{
-	width: 100%;
-	padding: 1rem;
-	margin: 10px auto;
-  }
-
- .title-trms{
-	margin-inline: 1rem;
-  }
-  .head-barr{
-	display: block;
-  }
-
-  ul{
-	width: 100%;
-    display: flex
-;
-    flex-wrap: wrap;
-  }
-
-  .brd-rds{
-	width: 30px;
-  }
-
-
-}
-
-
-/* laptop */
-@media screen and (min-width:1023px) {
-
-	.container{
-		width: 100%;
-	}
-
-	.container-sml{
-		width: 100%;
-	}
-
-	.card-tiramisù{
-		display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-	}
-	
-	.img-tiramisù{
-		width: 70%;
-	}
-
-	.card-difficoltà{
-		width: 30%;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:375px ) and (max-width: 1064px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: auto;
+    max-width: 720px;
+  }
+
+  #app-header {
+    padding: 0rem 1rem;
+
+    h1 {
+      text-align: left;
+    }
+  }
+
+  .card .card-body {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 5rem;
+      row-gap: 1.5rem;
+    }
+  }
+
+  .socials{
+   
+  
+    .icon{
+     padding: 0.25rem 2.5rem;
+    }
+  }
+  
+
+
+  .banner{
+    display: block;
+  }
+
+  .presentation
+  {
+    padding: 2rem 0;
+    img
+    {
+      float: left;
+      margin-right: 1rem;
+    }
+  }
+
+  #app_footer{
+    display: flex;
+    align-items: center;
+  }
+
+ 
+}
+
+/* desktop */
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 920px;
+  }
+
+  .card {
+    display: flex;
+
+    .card-pre {
+      width: 70%;
+    }
+
+    .card-body {
+      ul {
+        display: block;
+      }
+    }
+  }
+  .socials{
+   
+  
+    .icon{
+     span{
+      display: inline;
+     }
+    }
+  }
+
+
+
+}
+
+/* mobile */
+@media screen and (max-width: 423px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .dolce-trdz {
+    visibility: hidden;
+  }
+
+  .title-trms .card-title .img-tiramisù-tlt {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
   }
 }
 
 
+.list-add li:hover .fluo {
+  border: 2px solid yellowgreen;
+}
 
+.fluo_ {
+  border-bottom: 2px solid #141922;
+  width: 28px;
+}
 
-
-
-
-
-
-
-/*
-  .row {
-    flex-direction: column;}
- *
+.list-categ li:hover .fluo_ {
+  border-bottom: 2px solid yellowgreen;
+}
+.fluo {
+  border: 2px solid border black;
+  position: absolute;
+  height: 33px;
+  margin-left: -12px;
+}
